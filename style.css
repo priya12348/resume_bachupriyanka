@@ -1,0 +1,62 @@
+.main{
+  display: flex;
+  width: 100%;
+  background-color: #999;
+  flex-direction: row;
+}
+.left{
+  width: 30%;
+  background-color: #c45e45;
+border: 5px solid #fff;
+margin: 5px;
+  padding: 6px;
+}
+.right{
+  width: 70%;
+  background-color: #666;
+  border: 5px solid #fff;
+  margin: 5px;
+  padding: 6px;
+}
+#name{
+  color: green;
+
+}
+.left img{
+border-radius: 50px;
+border: 5px solid #c454;
+
+}
+/*  media queries(1024,1280,768,480)
+1280-1024 : desktop
+1024-768 : tabletlandscope and potrait)
+768-480 :tablet
+480     :mobile(or)smaller device
+*/
+@media only screen and (min-width:1024px) and (max-width:1280px)
+{
+  .main{
+    display : flex;
+    width : 100%;
+    background-color: #999;
+
+  }
+  .left{
+    width: 30%;
+    background-color: yellow;
+
+  }
+  .right{
+    width: 70%;
+    background-color: pink;
+
+  }
+
+}
+
+@@media only screen and (min-width:768px) and (max-width:1024px){
+
+}
+@@media only screen and (min-width:480px) and (max-width:768px){
+
+}
