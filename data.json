@@ -4,5 +4,47 @@
     "name":"BachuPriyanka",
     "email":"bachupriyanka1997@gmail.com",
     "phone":"8374103344"
-  }
+  },
+"education":[
+  {
+    "course":"B.Tech(computer science and engineerin)",
+    "college":["ravindra college of engineering for women",
+                "2015-2019",
+                "60%"
+  ]
+},
+{
+  "course":"Intermediate",
+  "college":["narayana",
+  "2012-2013",
+  "90%"
+
+]
+},
+{
+
+    "course":"ssc",
+    "college":["keshavareddy",
+    "2012",
+    "90%"
+]
+
+}
+],
+"skills":[
+  {
+    "name":"operating systems",
+    "value":"windows,linux"
+  },
+
+  {
+    "name":"programming languages",
+    "value":"c,c++,java"
+  },
+  {
+    "name":"webdevelopment",
+    "value":"html,php"
+    }
+
+  ]
 }
